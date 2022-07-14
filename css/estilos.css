@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+header{
+    background: #253062;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+header h1{
+    text-transform: uppercase;
+}
+
+.subtema{
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.principal{
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja{
+    border: 0.2rem solid #253062;
+    width: 30rem;
+    height: 48rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.caja p{ 
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+.figura{
+    background-color: #253062;
+    color: #fff;
+    padding: 1rem;
+
+}
+.escribir{
+    margin-bottom: 2rem;
+    border: 0.2rem solid #253062;
+    border-radius: 0.5rem;
+    width: 25rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.btn{
+    background-color: #253062;
+    color: #fff;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4457ac;
+}
